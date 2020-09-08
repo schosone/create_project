@@ -7,4 +7,4 @@
   tasks:
     - name: run create_project
       include_role:
-        name: create_project
+        name: create_tower_project
