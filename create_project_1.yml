@@ -1,0 +1,10 @@
+---
+- name: Import Create Project Role
+  hosts: all
+  become: true
+  roles:
+    - create_project
+  tasks:
+    - name: run create_project
+      include_role:
+        name: create_project
