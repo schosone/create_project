@@ -1,0 +1,8 @@
+---
+- name: Import Add to Inventory Role
+  hosts: all
+  become: true
+  tasks:
+    - name: run host addition.
+      include_role:
+        name: add_to_inventory
