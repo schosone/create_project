@@ -1,3 +1,4 @@
 ---
 - src: https://github.com/schosone/create_tower_project.git
 - src: https://github.com/schosone/add_to_inventory.git
+- src: https://github.com/schosone/install_cert_prototype.git
