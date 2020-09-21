@@ -1,0 +1,8 @@
+--
+- name: Import Cert Installation Prototypoe Role
+  hosts: all
+  become: true
+  tasks:
+    - name: run host addition.
+      include_role:
+        name: install_cert_prototype
